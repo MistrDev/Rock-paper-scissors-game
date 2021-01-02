@@ -5,6 +5,8 @@ const getUserChoice = userInput => {
     console.log('Error!');
   }
   }
+
+  // Insert your move here..
     console.log(getUserChoice('scissors'));
   
   // a function so the computer can make a random choice 
