@@ -8,7 +8,7 @@ const getUserChoice = userInput => {
     console.log(getUserChoice('scissors'));
   
   // a function so the computer can make a random choice 
-  function getComputerChoice() {
+  const getComputerChoice = () => {
    const randomNumber = Math.floor(Math.random() * 3);
     switch(randomNumber) {
     case 0:
@@ -23,8 +23,9 @@ const getUserChoice = userInput => {
   console.log(getComputerChoice());
   
   // a function that compares the two inputs and decides if its a tie or win
-  const determineWinner = (userChoice,computerChoice) => {
-     if (userChoice === computerChoice) {
-    return 'The game is a tie!';
+  const determineWinner = (getUserChoice,getComputerChoice) => {
+     if (getUserChoice === getComputerChoice) {
+    console.log('The game is a tie!');
   }
   }
+  
