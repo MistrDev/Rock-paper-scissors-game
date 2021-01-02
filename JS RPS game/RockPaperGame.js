@@ -27,7 +27,6 @@ const getUserChoice = userInput => {
   // a function that compares the two inputs and decides if its a tie or win
   const determineWinner = (getUserChoice,getComputerChoice) => {
      if (getUserChoice === getComputerChoice) {
-    console.log('The game is a tie!');
+    console.log ('The game was a tie!');
   }
   }
-  
