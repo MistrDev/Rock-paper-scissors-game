@@ -1,7 +1,12 @@
+const answers = ['rock']
+
+
+
+
 const getUserChoice = userInput => {
     userInput = userInput.toLowerCase();
     if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' ) {
-    return userInput;} else {
+    return userInput; } else {
     console.log('Error!');
   }
   }
@@ -29,4 +34,4 @@ const getUserChoice = userInput => {
      if (getUserChoice === getComputerChoice) {
     console.log ('The game was a tie!');
   }
-  }
+  } 
