@@ -28,5 +28,10 @@ const getUserChoice = userInput => {
   const determineWinner = (getUserChoice,getComputerChoice) => {
      if (getUserChoice === getComputerChoice) {
     console.log ('The game was a tie!');
-  }
+  }  if (userChoice === 'rock') {
+    if (computerChoice === 'paper'){
+    return 'JavaScript Won!' } else {
+      return 'You Won!'
+    }
   } 
+}
